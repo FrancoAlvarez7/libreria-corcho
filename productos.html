@@ -12,7 +12,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <!-- Custom -->
-  <link rel="stylesheet" href="archivos/css/custom.css">
+  <link rel="stylesheet" href="archivos/css/estilos.css">
   <meta name="description" content="Librería Corcho · cuadernos, agendas y útiles.">
 </head>
 <body>
@@ -20,7 +20,7 @@
     <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top" aria-label="Principal">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
-          <img src="archivos/img/logo.png" alt="Logo Librería Corcho" height="28">
+          <img src="archivos/img/logo.png" alt="Logo Librería Corcho" height="60">
           <span class="fw-bold">Librería Corcho</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
@@ -29,9 +29,9 @@
         </button>
         <div id="nav" class="collapse navbar-collapse">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
             <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-            <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+            <li class="nav-item"><a class="nav-link active" href="productos.html">Productos</a></li>
             <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
           </ul>
           <a class="btn btn-primary ms-lg-3" href="productos.html">Ver productos</a>
@@ -41,42 +41,96 @@
   </header>
 
   <main>
-    <!-- Hero -->
     <section class="py-5 section-cork">
       <div class="container">
         <div class="row align-items-center g-4">
           <div class="col-12 col-lg-6">
-            <h1 class="display-6 fw-bold">Todo para estudiar y trabajar</h1>
-            <p class="lead">Cuadernos, agendas y útiles de diseño, con asesoramiento en la galería.</p>
-            <a class="btn btn-primary btn-lg me-2" href="productos.html">Ver productos</a>
-            <span class="badge badge-cork">Novedades</span>
-          </div>
-          <div class="col-12 col-lg-6">
-            <img class="img-fluid rounded-3 shadow-sm" src="archivos/img/hero.jpg" alt="Vitrina de Librería Corcho">
+            <h1 class="display-6 fw-bold">Conocé todos nuestros productos!</h1>
+            <p class="lead">Todo lo que deseas para tu estudio y organización.</p>
+            <!-- <a class="btn btn-primary btn-lg me-2" href="productos.html">Ver productos</a>
+            <span class="badge badge-cork">Novedades</span>-->
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Products -->
+    <!-- Productos -->
      <section class="py-5">
         <div class="container">
             <h1 class="h3 mb-4">Productos</h1>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
-            <div class="col">
+              <div class="col">
+                  <article class="card h-100 shadow-sm">
+                  <img src="archivos/img/notasadhseivas.png" class="card-img-top" alt="Set de Notas Adhesivas">
+                  <div class="card-body">
+                      <h2 class="h5 card-title mb-1">Set de Notas Adhesivas</h2>
+                      <p class="card-text text-muted mb-2">Bloques de notas en tonos naturales, adhesivo reposicionable.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                      <span class="fw-semibold">$2.400</span>
+                      </div>
+                  </div>
+                  </article>
+              </div>
+              <div class="col">
                 <article class="card h-100 shadow-sm">
-                <img src="assets/img/cuaderno-a5.webp" class="card-img-top" alt="Cuaderno A5 tapa dura rayado">
+                <img src="archivos/img/cuaderno.png" class="card-img-top" alt="Cuaderno A5 tapa dura rayado">
                 <div class="card-body">
                     <h2 class="h5 card-title mb-1">Cuaderno A5 Tapa Dura</h2>
-                    <p class="card-text text-muted mb-2">Rayado, 80 hojas, varios colores.</p>
+                    <p class="card-text text-muted mb-2">Con textura, 80 o 120 hojas, varios colores.</p>
                     <div class="d-flex justify-content-between align-items-center">
                     <span class="fw-semibold">$8.900</span>
-                    <button class="btn btn-sm btn-primary">Detalle</button>
                     </div>
                 </div>
                 </article>
-            </div>
-            <!-- Duplica .col para más productos -->
+              </div>
+              <div class="col">
+                  <article class="card h-100 shadow-sm">
+                  <img src="archivos/img/lapiceras.png" class="card-img-top" alt="Set de Lapiceras">
+                  <div class="card-body">
+                      <h2 class="h5 card-title mb-1">Set de Lapiceras</h2>
+                      <p class="card-text text-muted mb-2">Pack x3 en tonos azul libro, marrón y arena, tinta suave de secado rápido.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                      <span class="fw-semibold">$3.000</span>
+                      </div>
+                  </div>
+                  </article>
+              </div>
+              <div class="col">
+                  <article class="card h-100 shadow-sm">
+                  <img src="archivos/img/portadocumentos.png" class="card-img-top" alt="Portadocumentos de Lona">
+                  <div class="card-body">
+                      <h2 class="h5 card-title mb-1">Portadocumentos de Lona</h2>
+                      <p class="card-text text-muted mb-2">Carpeta artesanal en lona beige con cierre elástico y bolsillos internos.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                      <span class="fw-semibold">$7.300</span>
+                      </div>
+                  </div>
+                  </article>
+              </div>
+              <div class="col">
+                  <article class="card h-100 shadow-sm">
+                  <img src="archivos/img/agenda.png" class="card-img-top" alt="Agenda 2025">
+                  <div class="card-body">
+                      <h2 class="h5 card-title mb-1">Agenda 2025</h2>
+                      <p class="card-text text-muted mb-2">Semanal, tapa flexible con textura lino, cierre elástico y cinta señaladora.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                      <span class="fw-semibold">$5.600</span>
+                      </div>
+                  </div>
+                  </article>
+              </div>
+              <div class="col">
+                  <article class="card h-100 shadow-sm">
+                  <img src="archivos/img/set.png" class="card-img-top" alt="Set de Papelería “Inicio”">
+                  <div class="card-body">
+                      <h2 class="h5 card-title mb-1">Set de Papelería “Inicio”</h2>
+                      <p class="card-text text-muted mb-2">Incluye cuaderno A5, lápiz, marcador y mini agenda en caja kraft.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                      <span class="fw-semibold">$14.900</span>
+                      </div>
+                  </div>
+                  </article>
+              </div>
             </div>
         </div>
     </section>
@@ -86,9 +140,9 @@
     <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-center gap-3">
       <small class="text-muted">© 2025 Librería Corcho</small>
       <ul class="list-inline mb-0">
-        <li class="list-inline-item"><a class="text-decoration-none" href="#" aria-label="Instagram">Instagram</a></li>
-        <li class="list-inline-item"><a class="text-decoration-none" href="#" aria-label="Facebook">Facebook</a></li>
-        <li class="list-inline-item"><a class="text-decoration-none" href="mailto:contacto@libreriacorcho.com" aria-label="Correo">Mail</a></li>
+        <li class="list-inline-item"><a class="text-decoration-none" href="https://www.instagram.com/?hl=es-la" aria-label="Instagram">Instagram</a></li>
+        <li class="list-inline-item"><a class="text-decoration-none" href="https://www.facebook.com/?locale=es_LA" aria-label="Facebook">Facebook</a></li>
+        <li class="list-inline-item"><a class="text-decoration-none" href="https://x.com/home" aria-label="Correo">Twitter</a></li>
       </ul>
     </div>
   </footer>
