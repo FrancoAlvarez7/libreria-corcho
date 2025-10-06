@@ -1,0 +1,28 @@
+:root{
+  --brand: #1E4D8F;        /* Primario (azul libro) */
+  --brand-contrast: #ffffff;
+  --accent-cork: #D9B99B;  /* Acento tipo corcho */
+  --cork-base: #F3E7D3;    /* Fondo cálido */
+  --text: #1F2937;         /* Texto principal */
+  --ui-bg: #F8F9FA;        /* Fondo UI claro */
+  --accent-ink: #8B5E34;   /* Acento marrón suave */
+}
+
+body{ 
+  background: var(--ui-bg);
+  color: var(--text);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+h1,h2,h3,.navbar-brand{ font-family: Poppins, Inter, system-ui, sans-serif; }
+
+.btn-primary{
+  --bs-btn-bg: var(--brand);
+  --bs-btn-border-color: var(--brand);
+  --bs-btn-hover-bg: #184074;
+  --bs-btn-hover-border-color: #184074;
+}
+a{ color: var(--brand); }
+.section-cork{ background: var(--cork-base); }
+.badge-cork{ background: var(--accent-cork); color:#3b2f22; }
+
+.card-img-top{ height:220px; object-fit:cover }
