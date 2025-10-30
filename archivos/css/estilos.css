@@ -1,11 +1,11 @@
 :root{
-  --brand: #1E4D8F;        /* Primario (azul libro) */
+  --brand: #1E4D8F;        /* Primario */
   --brand-contrast: #ffffff;
-  --accent-cork: #D9B99B;  /* Acento tipo corcho */
+  --accent-cork: #D9B99B;  
   --cork-base: #F3E7D3;    /* Fondo cálido */
   --text: #1F2937;         /* Texto principal */
-  --ui-bg: #F8F9FA;        /* Fondo UI claro */
-  --accent-ink: #8B5E34;   /* Acento marrón suave */
+  --ui-bg: #F8F9FA;        /* Fondo claro */
+  --accent-ink: #8B5E34;   
 }
 
 body{ 
@@ -27,8 +27,33 @@ a{ color: var(--brand); }
 
 .card-img-top {
   width: 100%;
-  height: 200px;          /* o 220px, según tu diseño */
-  object-fit: cover;      /* recorta centrado */
+  height: 200px;          
+  object-fit: cover;      
   object-position: center;
 }
 
+.resultado-promo {
+  background-color: var(--cork-base); 
+  border-left: 4px solid var(--brand);
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.resultado-promo p {
+  margin-bottom: 0.25rem;
+}
+
+.footer h3 {
+  font-family: Poppins, Inter, system-ui, sans-serif;
+  color: var(--text); 
+}
+
+.footer a {
+    color: var(--brand); 
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #184074; 
+    text-decoration: underline;
+}
